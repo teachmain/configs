@@ -1,0 +1,9 @@
+configuration {
+	modi: "window,run,ssh,drun";
+    theme: "solarized";
+    show-icons: true;
+    font: "mono 24";
+	width: 50;
+	lines: 15;
+	columns: 1;
+}
