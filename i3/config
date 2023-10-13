@@ -31,7 +31,7 @@ new_window none
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id picom -b -i 0.9 -c --vsync -f
 exec --no-startup-id fcitx5 -d
-exec_always --no-startup-id feh --bg-fill ~/Downloads/bg.jpg
+exec_always --no-startup-id feh --bg-fill ~/bg
 exec_always --no-startup-id /home/teachmain/.config/polybar/launch.sh
 # Use pactl to adjust volume in PulseAudio.
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10%
